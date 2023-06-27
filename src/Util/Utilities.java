@@ -18,8 +18,8 @@ public enum Utilities {
     public static final Pattern emailCheckingPattern = Pattern.compile(Utilities.DETECT_EMAIL_REGEX);
 
 
-    // Method, which checks if given field is empty
-    // @param field - The field to check
+    /* Method, which checks if given field is empty
+    * @param field - The field to check */
     public static boolean isFieldEmpty(String field) {
         return field == null || field.trim().isEmpty();
     }

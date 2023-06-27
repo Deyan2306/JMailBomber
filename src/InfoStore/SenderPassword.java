@@ -13,6 +13,8 @@ public enum SenderPassword {
         System.out.print("Enter sender password [default - no password]: ");
         String password = reader.readLine().trim();
 
+        // TODO: Encrypt the password and store it
+
         return password;
     }
 

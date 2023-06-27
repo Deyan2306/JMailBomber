@@ -8,9 +8,9 @@ import static Util.Utilities.*;
 public enum SenderEmail {
     ;
 
-    // Method, used for reading the email address from the console
-    // @throws IOException
-    // @throws IllegalArgumentException
+    /* Method, used for reading the email address from the console
+     * @throws IOException
+     * @throws IllegalArgumentException */
     public static String readEmailAddress() throws IOException, IllegalArgumentException {
 
         System.out.print("Enter sender email address: ");
@@ -36,8 +36,8 @@ public enum SenderEmail {
         return matchedEmail;
     }
 
-    // Methods, which provides the functionality to read continuously from the console if the
-    // provided input is incorrect
+    /* Methods, which provides the functionality to read continuously from the console if the
+     * provided input is incorrect */
     public static String getEmailAddress() {
         String senderEmail = null;
 
