@@ -17,6 +17,10 @@ public enum Utilities {
     // Regex pattern for checking the email addresses
     public static final Pattern emailCheckingPattern = Pattern.compile(Utilities.DETECT_EMAIL_REGEX);
 
+    // SenderEmail parameters
+    public final static String SENDER = "sender";
+    public final static String RECEIVER = "receiver";
+
 
     /* Method, which checks if given field is empty
     * @param field - The field to check */
