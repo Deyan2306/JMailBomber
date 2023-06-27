@@ -12,10 +12,10 @@ public enum Utilities {
 
 
     // Buffered reader for reading from the console
-    public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    public static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     // Regex pattern for checking the email addresses
-    public static Pattern emailCheckingPattern = Pattern.compile(Utilities.DETECT_EMAIL_REGEX);
+    public static final Pattern emailCheckingPattern = Pattern.compile(Utilities.DETECT_EMAIL_REGEX);
 
 
     // Method, which checks if given field is empty
